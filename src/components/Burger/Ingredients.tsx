@@ -8,6 +8,7 @@ interface Props {
     onAddIngredient: React.MouseEventHandler;
 }
 
+
 const Ingredient: React.FC<Props> = ({
                                          name,
                                          image,

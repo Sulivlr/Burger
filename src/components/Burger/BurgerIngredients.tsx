@@ -2,8 +2,8 @@ import React from 'react';
 
 interface BurgerProps {
     ingredients: {
-        map(element: (ingredient,
-                      index) => React.JSX.Element): React.ReactNode;
+        map(element: (ingredient: any,
+                      index: any) => React.JSX.Element): React.ReactNode;
         name: string;
         count: number;
     };
